@@ -1,0 +1,12 @@
+INSERT INTO hotelDetails values ('Taj' ,'AC', 7, 7000); 
+INSERT INTO hotelDetails values ('The Imperial' ,'Non-AC', 5, 3000); 
+INSERT INTO hotelDetails values ('ITC Grand Chola' ,'AC', 7, 5000); 
+INSERT INTO hotelDetails values ('The Leela palace' ,'Non-AC',5, 4000); 
+INSERT INTO hotelDetails values ('Taj Banjara' ,'Non-AC', 5, 3500); 
+INSERT INTO hotelDetails values ('RedFox Hotel' ,'AC', 5, 5000); 
+INSERT INTO hotelDetails values ('The Shangri-La' ,'AC', 7, 8000); 
+INSERT INTO hotelDetails values ('Sheraton Grand' ,'Non-AC', 6, 4000); 
+INSERT INTO hotel values (1, 'Taj','Chennai', '2020-12-12');
+INSERT INTO hotel values (2, 'The Imperial','Hyderabad',  '2020-12-13');
+INSERT INTO hotel values (3, 'abc','Delhi', '2020-12-14');
+INSERT INTO hotel values (4, 'def','Bangalore', '2020-12-15');

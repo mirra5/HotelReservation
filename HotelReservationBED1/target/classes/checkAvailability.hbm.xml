@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+	<class table="hotel" name="hotelreservation.hotel">
+		<id name="id" >
+			<generator class="increment"></generator>
+		</id>
+		<property name="hotelname"/>
+		<property name="cityname"/>
+		<property name="date"/>
+	</class>
+	<class table="hotelDetails" name="hotelreservation.hotelDetails">
+		<id name="hotelname"/>
+		<property name="roomtype"/>
+		<property name="gst"/>
+		<property name="Price"/>
+	</class>
+</hibernate-mapping>
